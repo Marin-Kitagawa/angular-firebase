@@ -1,0 +1,22 @@
+<div class="container" style="margin-top: 15vw; display: flex; align-items: center; justify-content: center;">
+  <div class="card">
+    <div class="card-body">
+      <div class="col-md-12">
+        <h1 class="card-title" style="display: flex; align-items: center; justify-content: center;">Login</h1>
+        <hr>
+        <form [formGroup]="loginForm">
+          <div class="input-group flex-nowrap" style="margin-bottom: 10px;">
+            <input type="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="addon-wrapping" formControlName="email">
+          </div>
+          <div class="input-group flex-nowrap" style="margin-bottom: 10px;">
+            <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="addon-wrapping" formControlName="password">
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between">
+            <a class="btn btn-primary" (click)="logIn()">Login</a>
+            <a routerLink="" class="btn btn-link" style="text-decoration: none;" >Create A User</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
