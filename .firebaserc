@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-auth-650c7": {
+      "hosting": {
+        "afv": [
+          "angular-auth-650c7"
+        ]
+      }
+    }
+  }
+}
